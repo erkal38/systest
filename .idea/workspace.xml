@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="74e98405-49a7-4e4a-9259-6b36bffb87c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/jdbctests/jdbc_example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jdbctests/jdbc_example.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/jdbctests/jdbc_example.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/jdbctests/jdbc_example.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,7 +44,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="TestNG.jdbc_example.metaData">
+  <component name="RunManager" selected="TestNG.javautilexample.metaData">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jdbctests.Main" />
       <module name="eu2-jdbc-practice" />
@@ -55,6 +54,24 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="javautilexample.metaData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="eu2-jdbc-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbctests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jdbctests" />
+      <option name="MAIN_CLASS_NAME" value="jdbctests.javautilexample" />
+      <option name="METHOD_NAME" value="metaData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -96,6 +113,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.javautilexample.metaData" />
         <item itemvalue="TestNG.jdbc_example.metaData" />
         <item itemvalue="TestNG.jdbc_example" />
         <item itemvalue="Application.Main" />
@@ -127,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595380472238</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="erkal">
+      <created>1595382374644</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595382374644</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -135,10 +160,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="erkal" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="332" y="0" key="CommitChangelistDialog2" timestamp="1595380471808">
+    <state x="332" y="0" key="CommitChangelistDialog2" timestamp="1595382374133">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="332" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595380471808" />
+    <state x="332" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595382374133" />
     <state x="463" y="109" key="FileChooserDialogImpl" timestamp="1595378691276">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -147,34 +172,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="500" y="243" key="Github.CreatePullRequestDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595379805611" />
-    <state width="1322" height="276" key="GridCell.Tab.0.bottom" timestamp="1595381698059">
+    <state width="1322" height="276" key="GridCell.Tab.0.bottom" timestamp="1595416997534">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="276" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595381698059" />
-    <state width="1322" height="276" key="GridCell.Tab.0.center" timestamp="1595381698059">
+    <state width="1322" height="276" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595416997534" />
+    <state width="1322" height="276" key="GridCell.Tab.0.center" timestamp="1595416997533">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="276" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595381698059" />
-    <state width="1322" height="276" key="GridCell.Tab.0.left" timestamp="1595381698059">
+    <state width="1322" height="276" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595416997533" />
+    <state width="1322" height="276" key="GridCell.Tab.0.left" timestamp="1595416997533">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="276" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595381698059" />
-    <state width="1322" height="276" key="GridCell.Tab.0.right" timestamp="1595381698059">
+    <state width="1322" height="276" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595416997533" />
+    <state width="1322" height="276" key="GridCell.Tab.0.right" timestamp="1595416997534">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="276" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595381698059" />
+    <state width="1322" height="276" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595416997534" />
     <state x="186" y="0" key="SettingsEditor" timestamp="1595370927496">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595370927496" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1595380484927">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1595382396109">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595380484927" />
-    <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595380477236">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595382396109" />
+    <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595382383041">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595380477236" />
+    <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595382383041" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1595370917686">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
