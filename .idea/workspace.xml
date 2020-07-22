@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74e98405-49a7-4e4a-9259-6b36bffb87c9" name="Default Changelist" comment="" />
+    <list default="true" id="74e98405-49a7-4e4a-9259-6b36bffb87c9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jdbctests/jdbc_example.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jdbctests/jdbc_example.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +21,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="erkal38" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="systest" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -25,15 +34,17 @@
     </option>
   </component>
   <component name="ProjectId" id="1f11b1Kon5hl8zAG3AeVsYpMpeX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="TestNG.jdbc_example">
+  <component name="RunManager" selected="TestNG.jdbc_example.metaData">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jdbctests.Main" />
       <module name="eu2-jdbc-practice" />
@@ -64,8 +75,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="jdbc_example.metaData" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="eu2-jdbc-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jdbctests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="jdbctests" />
+      <option name="MAIN_CLASS_NAME" value="jdbctests.jdbc_example" />
+      <option name="METHOD_NAME" value="metaData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.jdbc_example.metaData" />
         <item itemvalue="TestNG.jdbc_example" />
         <item itemvalue="Application.Main" />
       </list>
@@ -82,29 +112,49 @@
       <option name="presentableId" value="Default" />
       <updated>1595370852374</updated>
     </task>
+    <task id="LOCAL-00001" summary="erkal">
+      <created>1595379778446</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595379778446</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="erkal" />
+    <option name="LAST_COMMIT_MESSAGE" value="erkal" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="332" y="0" key="CommitChangelistDialog2" timestamp="1595379777939">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="332" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595379777939" />
     <state x="463" y="109" key="FileChooserDialogImpl" timestamp="1595378691276">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="109" key="FileChooserDialogImpl/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595378691276" />
-    <state width="1322" height="114" key="GridCell.Tab.0.bottom" timestamp="1595378591039">
+    <state x="500" y="243" key="Github.CreatePullRequestDialog" timestamp="1595379805611">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="114" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595378591039" />
-    <state width="1322" height="114" key="GridCell.Tab.0.center" timestamp="1595378591039">
+    <state x="500" y="243" key="Github.CreatePullRequestDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595379805611" />
+    <state width="1322" height="276" key="GridCell.Tab.0.bottom" timestamp="1595380449821">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="114" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595378591039" />
-    <state width="1322" height="114" key="GridCell.Tab.0.left" timestamp="1595378591039">
+    <state width="1322" height="276" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595380449821" />
+    <state width="1322" height="276" key="GridCell.Tab.0.center" timestamp="1595380449821">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="114" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595378591039" />
-    <state width="1322" height="114" key="GridCell.Tab.0.right" timestamp="1595378591039">
+    <state width="1322" height="276" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595380449821" />
+    <state width="1322" height="276" key="GridCell.Tab.0.left" timestamp="1595380449821">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="114" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595378591039" />
+    <state width="1322" height="276" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595380449821" />
+    <state width="1322" height="276" key="GridCell.Tab.0.right" timestamp="1595380449821">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="276" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595380449821" />
     <state x="186" y="0" key="SettingsEditor" timestamp="1595370927496">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

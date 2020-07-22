@@ -40,4 +40,19 @@ public class jdbc_example {
         connection.close();
 
     }
+    @Test
+    public void metaData() throws SQLException {
+        Connection connection = DriverManager.getConnection(dbUrl, dbUsername, dbPassword);
+        Statement statement = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_READ_ONLY);
+        ResultSet resultSet = statement.executeQuery("select * from departments");
+        DatabaseMetaData metaData = connection.getMetaData();
+        String userName = metaData.getUserName();
+        System.out.println(userName);
+        System.out.println(metaData.getDriverVersion());
+        System.out.println(metaData.getDriverName());
+        System.out.println(metaData.getDatabaseProductVersion());
+        System.out.println(metaData.getDatabaseProductName());
+
+
+    }
 }
