@@ -45,13 +45,28 @@ public class jdbc_example {
         Connection connection = DriverManager.getConnection(dbUrl, dbUsername, dbPassword);
         Statement statement = connection.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE,ResultSet.CONCUR_READ_ONLY);
         ResultSet resultSet = statement.executeQuery("select * from departments");
+//        resultSet.next();
+//        System.out.println(resultSet.getString(2));
         DatabaseMetaData metaData = connection.getMetaData();
         String userName = metaData.getUserName();
-        System.out.println(userName);
-        System.out.println(metaData.getDriverVersion());
-        System.out.println(metaData.getDriverName());
-        System.out.println(metaData.getDatabaseProductVersion());
-        System.out.println(metaData.getDatabaseProductName());
+//        System.out.println(userName);
+//        System.out.println(metaData.getDriverVersion());
+//        System.out.println(metaData.getDriverName());
+//        System.out.println(metaData.getDatabaseProductVersion());
+//        System.out.println(metaData.getDatabaseProductName());
+         //get the resultset object metadata
+        ResultSetMetaData rsMetaData = resultSet.getMetaData();
+        int columnCount = rsMetaData.getColumnCount();
+        System.out.println(columnCount);
+        for (int i=1;i<=columnCount;i++) {
+            System.out.println(rsMetaData.getColumnName(i));
+
+
+        }
+        //System.out.println(resultSet.getString(1));
+
+        System.out.println(rsMetaData.getColumnName(4));
+
 
 
     }
