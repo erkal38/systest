@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="74e98405-49a7-4e4a-9259-6b36bffb87c9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +43,60 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
-  <component name="RunManager" selected="TestNG.simpleGetRequest.test3">
-    <configuration name="dbutils_practice" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CBTrainingWithJsonPath">
+    <configuration name="CBTrainingWithJsonPath" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="eu2-jdbc-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apitests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apitests" />
+      <option name="MAIN_CLASS_NAME" value="apitests.CBTrainingWithJsonPath" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CBTrainingWithJsonPath.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="eu2-jdbc-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apitests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apitests" />
+      <option name="MAIN_CLASS_NAME" value="apitests.CBTrainingWithJsonPath" />
+      <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HrApiWithJsonPath" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="eu2-jdbc-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apitests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apitests" />
+      <option name="MAIN_CLASS_NAME" value="apitests.HrApiWithJsonPath" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dynamic_list.metaData" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="eu2-jdbc-practice" />
       <extension name="coverage">
         <pattern>
@@ -54,79 +105,26 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="jdbctests" />
-      <option name="MAIN_CLASS_NAME" value="jdbctests.dbutils_practice" />
+      <option name="MAIN_CLASS_NAME" value="jdbctests.dynamic_list" />
+      <option name="METHOD_NAME" value="metaData" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="homeworkQ1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="eu2-jdbc-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apitests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apitests" />
+      <option name="MAIN_CLASS_NAME" value="apitests.homeworkQ1" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="dbutils_practice.test2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="eu2-jdbc-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jdbctests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="jdbctests" />
-      <option name="MAIN_CLASS_NAME" value="jdbctests.dbutils_practice" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="simpleGetRequest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="eu2-jdbc-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apitests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apitests" />
-      <option name="MAIN_CLASS_NAME" value="apitests.simpleGetRequest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="simpleGetRequest.test2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="eu2-jdbc-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apitests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apitests" />
-      <option name="MAIN_CLASS_NAME" value="apitests.simpleGetRequest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="simpleGetRequest.test3" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="eu2-jdbc-practice" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apitests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apitests" />
-      <option name="MAIN_CLASS_NAME" value="apitests.simpleGetRequest" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -135,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.simpleGetRequest.test3" />
-        <item itemvalue="TestNG.simpleGetRequest.test2" />
-        <item itemvalue="TestNG.simpleGetRequest" />
-        <item itemvalue="TestNG.dbutils_practice.test2" />
-        <item itemvalue="TestNG.dbutils_practice" />
+        <item itemvalue="TestNG.CBTrainingWithJsonPath" />
+        <item itemvalue="TestNG.CBTrainingWithJsonPath.test1" />
+        <item itemvalue="TestNG.dynamic_list.metaData" />
+        <item itemvalue="TestNG.HrApiWithJsonPath" />
+        <item itemvalue="TestNG.homeworkQ1" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +187,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595447287479</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="erkal">
+      <created>1596062639348</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1596062639348</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -197,10 +202,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="erkal" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="332" y="0" key="CommitChangelistDialog2" timestamp="1595447286995">
+    <state x="484" y="233" width="397" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1596726651739">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="332" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595447286995" />
+    <state x="484" y="233" width="397" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.728@0.0.1366.728" timestamp="1596726651739" />
+    <state x="332" y="0" key="CommitChangelistDialog2" timestamp="1596062638112">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="332" y="0" key="CommitChangelistDialog2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1596062638112" />
     <state x="463" y="109" key="FileChooserDialogImpl" timestamp="1595378691276">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -209,30 +218,34 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="500" y="243" key="Github.CreatePullRequestDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595379805611" />
-    <state width="1322" height="276" key="GridCell.Tab.0.bottom" timestamp="1596062621481">
+    <state width="706" height="284" key="GridCell.Tab.0.bottom" timestamp="1596836112339">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="276" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1596062621481" />
-    <state width="1322" height="276" key="GridCell.Tab.0.center" timestamp="1596062621481">
+    <state width="1322" height="276" key="GridCell.Tab.0.bottom/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1596063464913" />
+    <state width="706" height="284" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1596836112339" />
+    <state width="706" height="284" key="GridCell.Tab.0.center" timestamp="1596836112339">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="276" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1596062621481" />
-    <state width="1322" height="276" key="GridCell.Tab.0.left" timestamp="1596062621481">
+    <state width="1322" height="276" key="GridCell.Tab.0.center/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1596063464913" />
+    <state width="706" height="284" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1596836112339" />
+    <state width="706" height="284" key="GridCell.Tab.0.left" timestamp="1596836112339">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="276" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1596062621481" />
-    <state width="1322" height="276" key="GridCell.Tab.0.right" timestamp="1596062621481">
+    <state width="1322" height="276" key="GridCell.Tab.0.left/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1596063464912" />
+    <state width="706" height="284" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1596836112339" />
+    <state width="706" height="284" key="GridCell.Tab.0.right" timestamp="1596836112339">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="276" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1596062621481" />
+    <state width="1322" height="276" key="GridCell.Tab.0.right/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1596063464913" />
+    <state width="706" height="284" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1596836112339" />
     <state x="186" y="0" key="SettingsEditor" timestamp="1595370927496">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="0" key="SettingsEditor/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595370927496" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1595447302412">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1596062649058">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1595447302412" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1596062649058" />
     <state x="494" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595447291943">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
